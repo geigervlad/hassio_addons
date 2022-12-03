@@ -21,3 +21,7 @@ addons:
     repository: haberda/hassio-addon-transmission
     target: transmission
     image: ghcr.io/haberda/transmission/{arch}
+  onlyoffice:
+    repository: geigervlad/onlyoffice-addon
+    target: onlyoffice
+    image: onlyoffice/documentserver
