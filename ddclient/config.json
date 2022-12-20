@@ -12,7 +12,7 @@
   "startup": "system",
   "boot": "manual",
   "map": [
-    "config:ro",
+    "config:ro"
   ],
   "panel_icon": "mdi:cloud",
   "privileged": [
