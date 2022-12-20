@@ -25,3 +25,7 @@ addons:
     repository: geigervlad/onlyoffice-addon
     target: onlyoffice
     image: onlyoffice/documentserver
+  ddclient:
+    repository: geigervlad/ddclient-addon
+    target: ddclient
+    image: linuxserver/ddclient
