@@ -12,9 +12,7 @@
   "startup": "system",
   "boot": "manual",
   "map": [
-    "share:rw",
-    "media:rw",
-    "ssl:rw"
+    "config:rw",
   ],
   "panel_icon": "mdi:cloud",
   "privileged": [
