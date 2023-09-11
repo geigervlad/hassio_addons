@@ -27,7 +27,7 @@
   "options": {
     "JWT_SECRET": "PUT SECRET HERE",
     "JWT_ENABLED": "true"
-    }
+  },
   "schema": {
     "JWT_SECRET": "str?",
     "JWT_ENABLED": "bool?"
