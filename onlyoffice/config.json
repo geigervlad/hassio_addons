@@ -27,5 +27,5 @@
   "environment": {
     "JWT_SECRET": "PUT SECRET HERE",
     "JWT_ENABLED": "true"
-  },
+  }
 }
