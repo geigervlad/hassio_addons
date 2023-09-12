@@ -24,16 +24,8 @@
   "webui": "https://[HOST]:[PORT:443]",
   "panel_icon": "mdi:cloud",
   "backup_exclude": [],
-  "options": {
-    "JWT_SECRET": "DOES_NOT_WORK_YET",
-    "JWT_ENABLED": "false"
-  },
-  "schema": {
-    "JWT_SECRET": "str?",
-    "JWT_ENABLED": "bool?"
-  },
   "environment": {
     "JWT_ENABLED": "false",
-    "JWT_SECRET": "TODO",
+    "JWT_SECRET": "TODO"
   }
 }
