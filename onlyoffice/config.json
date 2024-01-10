@@ -30,6 +30,6 @@
   },
   "options": {
     "JWT_ENABLED": true,
-    "JWT_SECRET": "changEmEtoEecurE"
+    "JWT_SECRET": "changeme"
   }
 }
