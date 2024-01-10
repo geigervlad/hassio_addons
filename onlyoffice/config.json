@@ -8,8 +8,8 @@
     "amd64",
     "armv7"
   ],
-  "image": "onlyoffice/documentserver:7.5",
-  "version": "7.5.1",
+  "image": "onlyoffice/documentserver",
+  "version": "7.5",
   "init": false,
   "startup": "system",
   "boot": "manual",
