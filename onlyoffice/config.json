@@ -24,12 +24,12 @@
   "webui": "https://[HOST]:[PORT:443]",
   "panel_icon": "mdi:cloud",
   "backup_exclude": [],
-  "options": {
-    "JWT_ENABLED": true,
-    "JWT_SECRET": "changEmEtoEecurE"
-  },
   "schema": {
     "JWT_ENABLED": "bool",
-    "JWT_SECRET": "str(7,25)"
+    "JWT_SECRET": "str"
+  },
+  "options": {
+    "JWT_ENABLED": "true",
+    "JWT_SECRET": "changEmEtoEecurE"
   }
 }
