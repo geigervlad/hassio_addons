@@ -9,7 +9,7 @@
     "armv7"
   ],
   "image": "onlyoffice/documentserver",
-  "version": "7.4",
+  "version": "7.5",
   "init": false,
   "startup": "system",
   "boot": "manual",
@@ -24,8 +24,16 @@
   "webui": "https://[HOST]:[PORT:443]",
   "panel_icon": "mdi:cloud",
   "backup_exclude": [],
-  "environment": {
-    "JWT_ENABLED": "false",
-    "JWT_SECRET": "TODO"
+  //"environment": {
+  //  "JWT_ENABLED": "false",
+  //  "JWT_SECRET": "TODO"
+  //},
+  "options": {
+    "JWT_ENABLED": true,
+    "JWT_SECRET": "changEmEtoEecurE"
+  },
+  "schema": {
+    "JWT_ENABLED": "bool",
+    "JWT_SECRET": "str(7,25)"
   }
 }
