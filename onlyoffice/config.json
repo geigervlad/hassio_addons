@@ -25,11 +25,11 @@
   "panel_icon": "mdi:cloud",
   "backup_exclude": [],
   "schema": {
-    "JWT_ENABLED": "bool",
+    "JWT_ENABLED": "bool?",
     "JWT_SECRET": "str"
   },
   "options": {
-    "JWT_ENABLED": "true",
+    "JWT_ENABLED": true,
     "JWT_SECRET": "changEmEtoEecurE"
   }
 }
